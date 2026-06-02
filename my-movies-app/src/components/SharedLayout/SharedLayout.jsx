@@ -1,6 +1,6 @@
 import { Suspense } from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
-import clsx from 'clsx'; // або використовуй звичайні класи в залежності від твого шаблону
+import clsx from 'clsx';
 import styles from './SharedLayout.module.css';
 
 export const SharedLayout = () => {
